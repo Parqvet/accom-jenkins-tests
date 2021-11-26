@@ -1,0 +1,252 @@
+{
+	"info": {
+		"_postman_id": "bdc06569-a540-4da6-a208-52315bc2c238",
+		"name": "Accom Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Accom Argentina",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.assistcard.com/ar?v=n",
+					"protocol": "https",
+					"host": [
+						"www",
+						"assistcard",
+						"com"
+					],
+					"path": [
+						"ar"
+					],
+					"query": [
+						{
+							"key": "v",
+							"value": "n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Accom Brasil",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.assistcard.com/br",
+					"protocol": "https",
+					"host": [
+						"www",
+						"assistcard",
+						"com"
+					],
+					"path": [
+						"br"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Accom Colombia",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.assistcard.com/co",
+					"protocol": "https",
+					"host": [
+						"www",
+						"assistcard",
+						"com"
+					],
+					"path": [
+						"co"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Accom Peru",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.assistcard.com/pe",
+					"protocol": "https",
+					"host": [
+						"www",
+						"assistcard",
+						"com"
+					],
+					"path": [
+						"pe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Accom Uruguay",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.assistcard.com/uy?v=n",
+					"protocol": "https",
+					"host": [
+						"www",
+						"assistcard",
+						"com"
+					],
+					"path": [
+						"uy"
+					],
+					"query": [
+						{
+							"key": "v",
+							"value": "n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Accom Mexico",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.assistcard.com/mx",
+					"protocol": "https",
+					"host": [
+						"www",
+						"assistcard",
+						"com"
+					],
+					"path": [
+						"mx"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Accom Chile",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.assistcard.com/cl",
+					"protocol": "https",
+					"host": [
+						"www",
+						"assistcard",
+						"com"
+					],
+					"path": [
+						"cl"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
